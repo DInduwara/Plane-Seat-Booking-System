@@ -26,3 +26,38 @@ This is a Java console application for managing seat bookings in a small airplan
 
 ## 🖥️ Sample Output
 
+
+            MENU OPTIONS                  *
+
+1.) Buy a seat
+2.) Cancel a seat
+3.) Find first available seat
+4.) Show seating plan
+5.) Print ticket information and total sales
+6.) Search ticket 
+0.) Quit 
+Please select an option:
+
+## 📄 Ticket File Example
+
+A ticket will be saved as a `.txt` file such as `A1.txt`:
+
+Ticket Information:
+Row: A
+Seat: 1
+Price: 200.0
+Personal Information:
+Name: Dinuka
+Surname: I.
+Email: dinuka@example.com
+
+
+plane-seat-booking-java/
+│
+├── src/
+│   ├── Person.java
+│   ├── Ticket.java
+│   └── PlaneManagement.java
+│
+├── README.md
+└── .gitignore
